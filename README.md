@@ -1,0 +1,2 @@
+# BOOTCAMP FIRST HOMEWORK : CODE REFACTOR
+The first homework exercise for the bootcamp, refactoring the html and css we were provided.  I have kept a copy of the starting html and css files but am not planning to publish them directly.
