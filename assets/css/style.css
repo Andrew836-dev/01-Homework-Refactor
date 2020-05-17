@@ -4,29 +4,41 @@
     margin: 0;
 }
 
+/* body tag here is setting up background color, text color and font for entire document */
+
 body {
     background-color: #d9dcd6;
     color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+/* header and footer use the same font so they're grouped together here */
+
 header, footer {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+/* padding and color that are unique to header */
 
 header {
     padding: 20px;
     background-color: #2a607c;
 }
 
+/* unique first header details */
+
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* text color change to make the seo of 'horiseon' stand out, just like Search Engine Optimization */
+
 #seo {
     color: #d9dcd6;
 }
+
+/* main layout of navbar */
 
 nav {
     padding-top: 15px;
@@ -36,19 +48,21 @@ nav {
     list-style-type: none;
 }
 
+/* layout for list items inside the navbar */
+
 nav li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* makes links in the navbar appear white and not underlined */
 
 nav a {
     text-decoration: none;
     color: #ffffff;
 }
 
-p {
-    font-size: 16px;
-}
+/* background image to make the initial view look good */
 
 .hero-background {
     height: 800px;
@@ -59,21 +73,35 @@ p {
     background-position: center;
 }
 
+/* font size for p elements */
+
+p {
+    font-size: 16px;
+}
+
+/* class to make a division float to the left */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
+
+/* class to make a division float to the right */
 
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* article is used to contain the major content of the page */
+
 article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
+
+/* content class to style the actual content sections */
 
 .content {
     margin-bottom: 20px;
