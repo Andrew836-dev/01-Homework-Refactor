@@ -36,7 +36,7 @@ h1 {
 
 /* text color change to make the seo of 'horiseon' stand out, just like Search Engine Optimization */
 
-#seo {
+.seo {
     color: #d9dcd6;
 }
 
@@ -166,7 +166,7 @@ footer {
     color: #000000;
 }
 
-/* class to make text bigger than average */
-.bigtext {
+/* A headline for the footer. */
+footer h4 {
     font-size: 20px;
 }
