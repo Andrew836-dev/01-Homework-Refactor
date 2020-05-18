@@ -1,10 +1,12 @@
+/* the "*" tag applies to everything in the page */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* body tag here is setting up background color, text color and font for entire document */
+/* body tag here is setting up background color, text color and font for entire page */
 
 body {
     background-color: #d9dcd6;
@@ -48,14 +50,14 @@ nav {
     list-style-type: none;
 }
 
-/* layout for list items inside the navbar */
+/* layout for list items inside the navbar, keeping list items outside the navbar with default appearance*/
 
 nav li {
     display: inline-block;
     margin-left: 25px;
 }
 
-/* makes links in the navbar appear white and not underlined */
+/* makes links in the navbar appear white and not underlined, while keeping links outside the navbar with default appearance */
 
 nav a {
     text-decoration: none;
@@ -93,7 +95,7 @@ p {
     margin-left: 25px;
 }
 
-/* article is used to contain the major content of the page */
+/* article is used here to contain the major content of the page */
 
 article {
     width: 75%;
@@ -110,14 +112,20 @@ article {
     background-color: #0072bb;
 }
 
+/* sizing for img tags inside the content sections */
+
 .content img {
     max-height: 200px;
 }
+
+/* sizing for h2 headlines inside the content sections */
 
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/* aside is used here for the side bar which explains the indirect benefits of why you should use this company */
 
 aside {
     margin-right: 20px;
@@ -129,14 +137,20 @@ aside {
     background-color: #2589bd;
 }
 
+/* benefits class for the individual benefit sections */
+
 .benefits {
     margin-bottom: 32px;
 }
+
+/* sizing and alignment for h3 tags inside the benefit sections */
 
 .benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
+
+/* sizing for images inside the benefit sections */
 
 .benefits img {
     display: block;
@@ -144,6 +158,7 @@ aside {
     max-width: 150px;
 }
 
+/* padding and colors that are unique to the footer */
 footer {
     padding: 30px;
     clear: both;
@@ -151,6 +166,7 @@ footer {
     color: #000000;
 }
 
+/* class to make text bigger than average */
 .bigtext {
     font-size: 20px;
 }
